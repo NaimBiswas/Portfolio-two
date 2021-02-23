@@ -1,12 +1,12 @@
 /* header */
 
 .dark-menu {
-  background-color: #171c28 !important;
+  background-color: #0D0D0D !important;
   color: white;
 }
 
 .dark-menu li a {
-  color: white !important;
+  color: #E2F4FB !important;
 }
 
 .dark-menu li a:hover {
@@ -14,7 +14,7 @@
 }
 
 .header {
-  background-color: #fff;
+  background-color: #F2F2F2;
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
