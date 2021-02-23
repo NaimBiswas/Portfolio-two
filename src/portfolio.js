@@ -182,35 +182,33 @@ const workExperiences = {
    display: true, //Set it to true to show workExperiences Section
    experience: [
       {
-         role: "Software Engineer",
-         company: "Clever Programmer",
-         companylogo: require("./assets/images/cpLogo.png"),
-         date: "September 2020 – Present",
+         role: "Naim Biswas",
+         company: "",
+         companylogo: "https://avatars.githubusercontent.com/u/67551591?s=460&u=458c2aebcd1ffead986401a9e9e536ba20cadf07&v=4",
+         date: "",
          desc:
-            "Changing lives of developers one line of code at a time.",
+            "No Previous Work Experience",
          descBullets: [
-            "Custom building applications",
-            "Coaching",
-            "Streaming live on YouTube",
-            "Creating tutorials"
+            "Looking For New Opportunity",
+
          ]
       },
-      {
-         role: "Product Owner (PSD2)",
-         company: "Erste Bank",
-         companylogo: require("./assets/images/ersteLogo.jpg"),
-         date: "July 2019 – September 2020",
-         desc:
-            "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
-      },
-      {
-         role: "Junior Information Security & Systems Representative",
-         company: "Vodafone",
-         companylogo: require("./assets/images/vodafoneLogo.png"),
-         date: "November 2018 – July 2019",
-         desc:
-            "I've conducted internal audit making sure the organization is compliant with the GDPR."
-      }
+      // {
+      //    role: "Product Owner (PSD2)",
+      //    company: "Erste Bank",
+      //    companylogo: require("./assets/images/ersteLogo.jpg"),
+      //    date: "July 2019 – September 2020",
+      //    desc:
+      //       "I lead software developers building the API for the bank in order to fulfil the PSD2 regulation requirements."
+      // },
+      // {
+      //    role: "Junior Information Security & Systems Representative",
+      //    company: "Vodafone",
+      //    companylogo: require("./assets/images/vodafoneLogo.png"),
+      //    date: "November 2018 – July 2019",
+      //    desc:
+      //       "I've conducted internal audit making sure the organization is compliant with the GDPR."
+      // }
    ]
 };
 
@@ -228,33 +226,55 @@ const openSource = {
 
 const bigProjects = {
    title: "Big Projects",
-   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+   subtitle: "SOME BIG PROJECT THAT I HAVE DONE FOR MY PRACTICE",
    projects: [
       {
-         image: require("./assets/images/saayaHealthLogo.webp"),
-         projectName: "Saayahealth",
-         projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+         image: "https://github.com/NaimBiswas/portfolio/blob/main/images/Google-Naim-Biswas.png?raw=true",
+         projectName: "Google v2.0",
+         projectDesc: "Hi there, This is a google project. This Google also provide real-time search result like our real Google. But this Google creator is 😉 Naim Biswas. This google have one more feature like oneClick for change color. I think this is a really good feature. Thank You",
          footerLink: [
             {
                name: "Visit Website",
-               url: "fa"
+               url: "https://g00gle-naimbiswas.web.app/"
             }
             //  you can add extra buttons here.
          ]
       },
       {
-         image: require("./assets/images/nextuLogo.webp"),
-         projectName: "Nextu",
-         projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+         image: "https://github.com/NaimBiswas/portfolio/blob/main/images/Netflix-Clone-Naim-Biswas-React-js.jpg?raw=true",
+         projectName: "Netflix Project",
+         projectDesc: "Hi there,This is a React js App. It's a Netflix movie project. Try to create similar. This is not 100% same like netflix but I am trying to made similar. This app has authentication and payment system.",
          footerLink: [
             {
                name: "Visit Website",
-               url: ""
+               url: "https://netflix-clone-naim.web.app/"
             }
          ]
-      }
+      },
+      {
+         image: "https://github.com/NaimBiswas/portfolio/blob/main/images/Thousand-Png-By-%F0%9F%91%89-Naim-Biswas.png?raw=true",
+         projectName: "Thousand Png",
+         projectDesc: "Photo Website. Made with Reactjs And Bootstrap, react router, and react loader are aslo included. This website all most look like Unsplash. All the Image are coming from third party api's. Build By: 😉",
+         footerLink: [
+            {
+               name: "Visit Website",
+               url: "https://thousand-png.web.app/"
+            }
+         ]
+      },
+      {
+         image: "https://github.com/NaimBiswas/portfolio/blob/main/images/Challange-Your-Self-Naim-Biswas.png?raw=true",
+         projectName: "Quiz App",
+         projectDesc: "This is a Quiz App. It's have over 25 categories. Every time each category have 15 question and and per question for right answer 1 mark and for wrong answer -.5. And the good think is that if you refresh this site it will show new category question.😉👉Naim Biswas",
+         footerLink: [
+            {
+               name: "Visit Website",
+               url: "https://react-quize-app.web.app/"
+            }
+         ]
+      },
    ],
-   display: false // Set false to hide this section, defaults to true
+   display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -341,7 +361,7 @@ const blogSection = {
             "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
       }
    ],
-   display: true // Set false to hide this section, defaults to true
+   display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -380,14 +400,14 @@ const contactInfo = {
    title: emoji("Contact Me ☎️"),
    subtitle:
       "Discuss a project or just want to say hi? My Inbox is open for all.",
-   number: "(323) 768 0674",
-   email_address: "contact@davidrakosi.com"
+   number: "(+880) 1774697860",
+   email_address: "nayeembiswas2@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-   userName: "davidrakosi_", //Replace "twitter" with your twitter username without @
+   userName: "NaimBiswas11", //Replace "twitter" with your twitter username without @
    display: true // Set true to display this section, defaults to false
 };
 

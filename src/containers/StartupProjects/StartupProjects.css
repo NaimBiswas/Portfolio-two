@@ -32,7 +32,7 @@
 }
 
 .project-card-dark {
-  box-shadow: 0px 10px 30px -15px #d9dbdf;
+  box-shadow: 0px 1px 2px 0px #d9dbdf;
   -webkit-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.25s ease;
@@ -61,21 +61,21 @@
 }
 
 .project-card-footer span.project-tag {
-  background: #55198b;
-  color: #f5f2f4;
-  vertical-align: middle;
-  align-items: center;
-  border-radius: 4px;
-  display: inline-flex;
-  font-size: 0.75rem;
-  height: 2em;
-  justify-content: center;
-  white-space: nowrap;
-  line-height: 1.5;
-  margin: 0 0.5rem 0.5rem 0;
-  padding: 0 0.75em;
-  cursor: pointer;
-  transition: 0.2s ease-in;
+    background: #F4405F;
+    color: #f5f2f4;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 4px;
+    display: inline-flex;
+    font-size: 15px;
+    height: 3em;
+    justify-content: center;
+    white-space: nowrap;
+    line-height: 1.5;
+    margin: 0 0.5rem 0.5rem 0;
+    padding: 0 1em;
+    cursor: pointer;
+    transition: 0.2s ease-in;
 }
 
 @media (max-width: 768px) {
