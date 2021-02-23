@@ -3,3 +3,6 @@
   color: white;
   transition: "0.1s";
 }
+.light-mode{
+   background-color: #E6E2E2;
+}
