@@ -74,12 +74,19 @@ const skillsSection = {
          fontAwesomeClassname: "fab fa-react"
       },
       {
-         skillName: "nodejs",
-         fontAwesomeClassname: "fab fa-node"
+         skillName: "php",
+         fontAwesomeClassname: 'fab fa-php'
+
       },
       {
-         skillName: "swift",
-         fontAwesomeClassname: "fab fa-swift"
+         skillName: "wordpress",
+         fontAwesomeClassname: 'fab fa-wordpress-simple'
+
+      },
+      {
+         skillName: "laravel",
+         fontAwesomeClassname: 'fab fa-laravel'
+
       },
       {
          skillName: "npm",
