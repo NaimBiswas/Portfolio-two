@@ -107,27 +107,27 @@ const skillsSection = {
 // Education Section
 
 const educationInfo = {
-   display: false, // Set false to hide this section, defaults to true
+   display: true, // Set false to hide this section, defaults to true
    schools: [
       {
-         schoolName: "Harvard University",
+         schoolName: "City College Pabna",
          logo: require("./assets/images/harvardLogo.png"),
-         subHeader: "Master of Science in Computer Science",
-         duration: "September 2017 - April 2019",
-         desc: "Participated in the research of XXX and published 3 papers.",
-         descBullets: [
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-         ]
+         subHeader: "Student of Science",
+         duration: "September 2018 - April 2020",
+         // desc: "Participated in the research of XXX and published 3 papers.",
+         // descBullets: [
+         //    "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+         // ]
       },
-      {
-         schoolName: "Stanford University",
-         logo: require("./assets/images/stanfordLogo.png"),
-         subHeader: "Bachelor of Science in Computer Science",
-         duration: "September 2013 - April 2017",
-         desc:
-            "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-         descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-      }
+      // {
+      //    schoolName: "Stanford University",
+      //    logo: require("./assets/images/stanfordLogo.png"),
+      //    subHeader: "Bachelor of Science in Computer Science",
+      //    duration: "September 2013 - April 2017",
+      //    desc:
+      //       "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      //    descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      // }
    ]
 };
 
@@ -137,17 +137,41 @@ const techStack = {
    viewSkillBars: true, //Set it to true to show Proficiency Section
    experience: [
       {
-         Stack: "Frontend / Design", //Insert stack or technology you have experience in
+         Stack: "HTML/CSS3", //Insert stack or technology you have experience in
          progressPercentage: "90%" //Insert relative proficiency in percentage
       },
       {
-         Stack: "Backend",
+         Stack: "BootStrap/TailwindCSS",
          progressPercentage: "70%"
       },
       {
-         Stack: "Programming",
-         progressPercentage: "90%"
-      }
+         Stack: "Styled Components",
+         progressPercentage: "85%"
+      },
+      {
+         Stack: "JavaScript",
+         progressPercentage: "60%"
+      },
+      {
+         Stack: "Reactjs",
+         progressPercentage: "45%"
+      },
+      {
+         Stack: "PHP",
+         progressPercentage: "65%"
+      },
+      {
+         Stack: "Laravel",
+         progressPercentage: "80%"
+      },
+      {
+         Stack: "API",
+         progressPercentage: "60%"
+      },
+      {
+         Stack: "WordPress",
+         progressPercentage: "89%"
+      },
    ],
    displayCodersrank: true // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
