@@ -49,9 +49,9 @@ export default class Main extends Component {
                <Greeting />
                <Skills />
                <StackProgress />
-               <Education />
-               <WorkExperience />
                <Projects />
+               <WorkExperience />
+               <Education />
                <StartupProject />
                <Achievement />
                <Blogs />
